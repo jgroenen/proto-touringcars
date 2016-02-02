@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name='viewport' content='initial-scale=1'>
+        <link href="reset.css" rel="stylesheet"/>
+        <style>
+            html, body {
+                width: 100%;
+                font-size: 100%;
+                font-family: Arial;
+            }
+            body {
+            }
+            h1 {
+                font-size: 1.8em;
+                font-weight: 900;
+            }
+            .slides {
+                background: #000 url('images/IMG_3828.jpg') center center no-repeat;
+                background-size: cover;
+                height: 400px;
+                width: 100%;
+            }
+            .slides .slide_left,
+            .slides .slide_right {
+                height: 200px;
+                width: 200px;
+                border-radius: 200px;
+                background: #fff;
+                position: relative;
+                margin-top: 100px;
+                font-size: 8em;
+                line-height: 180px;
+                text-align: center;
+                color: #000;
+                opacity: 0.5;
+                cursor: pointer;
+            }
+            .slides .slide_left {
+                float: left;
+                margin-left: -50px;
+            }
+            .slides .slide_right {
+                float: right;
+                margin-right: -50px;
+            }
+            .halteerplaats {
+                font-size: 1.8em;
+                background: #00d;
+                color: #fff;
+                /*border-radius: 0.1em;*/
+                padding: 0 0.2em;
+                font-weight: 900;
+                margin: 10px;
+                display: inline-block;
+                float: left;
+            }
+            .adresinfo {
+                float: left;
+                margin: 0 0 1em 0.4em;
+            }
+            .adresinfo h1 {
+                line-height: 1.8em;
+            }
+            .replace_with_clearfix {
+                clear: both;
+            }
+            .attractie .image {
+                width: 100px;
+                height: 100px;
+                background: #000;
+                display: inline-block;
+                float: left;
+            }
+            .payoff {
+                font-size: 1.4em;
+                margin: 1em 0 0.4em;
+            }
+            li {
+                clear: both;
+                margin: 10px;
+            }
+            .info {
+                margin: 10px;
+                display: inline-block;
+                line-height: 1.4em;
+            }
+            .info h2 {
+                font-weight: 900;
+            }
+            .attractie .coster {
+                background: url(images/costerdiamonds.jpg) center center no-repeat;
+                background-size: cover;
+            }
+            .attractie .vangogh {
+                background: url(images/vangogh.jpg) center center no-repeat;
+                background-size: cover;
+            }
+            .attractie .rijks {
+                background: url(images/rijksmuseum.jpg) center center no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="payoff">&nbsp;Welkom in Amsterdam</div>
+            <div class="adresinfo">
+                <h1>Attracties</h1>
+                <h2></h2>
+            </div>
+            <div class="replace_with_clearfix"></div>
+        </header>
+        <main>
+            <section class="attracties">
+                <ul>
+                    <li>
+                        <section class="attractie">
+                            <div class="image coster"></div>
+                            <div class="info">
+                                <h2>Coster Diamonds</h2>
+                                <p>Diamonds are a girls best friend</p>
+                                <p><a href="attractie.html">link</a></p>
+                            </div>
+                            <div class="replace_with_clearfix"></div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="attractie">
+                            <div class="image vangogh"></div>
+                            <div class="info">
+                                <h2>Van Goghmuseum</h2>
+                                <p>Largest art collection of Van Gogh and contemporaries</p>
+                                <p><a href="attractie.html">link</a></p>
+                            </div>
+                            <div class="replace_with_clearfix"></div>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="attractie">
+                            <div class="image rijks"></div>
+                            <div class="info">
+                                <h2>Rijks Museum</h2>
+                                <p></p>
+                                <p><a href="attractie.html">link</a></p>
+                            </div>
+                            <div class="replace_with_clearfix"></div>
+                        </section>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name='viewport' content='initial-scale=1'>
+        <link href="reset.css" rel="stylesheet"/>
+        <style>
+            html, body {
+                width: 100%;
+                font-size: 100%;
+                font-family: Arial;
+            }
+            body {
+            }
+            h1 {
+                font-size: 1.8em;
+                font-weight: 900;
+            }
+            .slides {
+                background: #000 url('images/IMG_3828.jpg') center center no-repeat;
+                background-size: cover;
+                height: 400px;
+                width: 100%;
+            }
+            .slides .slide_left,
+            .slides .slide_right {
+                height: 200px;
+                width: 200px;
+                border-radius: 200px;
+                background: #fff;
+                position: relative;
+                margin-top: 100px;
+                font-size: 8em;
+                line-height: 180px;
+                text-align: center;
+                color: #000;
+                opacity: 0.5;
+                cursor: pointer;
+            }
+            .slides .slide_left {
+                float: left;
+                margin-left: -50px;
+            }
+            .slides .slide_right {
+                float: right;
+                margin-right: -50px;
+            }
+            .halteerplaats {
+                font-size: 1.8em;
+                background: #00d;
+                color: #fff;
+                /*border-radius: 0.1em;*/
+                padding: 0 0.2em;
+                font-weight: 900;
+                margin: 10px;
+                display: inline-block;
+                float: left;
+            }
+            .adresinfo {
+                float: left;
+                margin: 0 0 1em 0.4em;
+            }
+            .adresinfo h1 {
+                line-height: 1.8em;
+            }
+            .replace_with_clearfix {
+                clear: both;
+            }
+            .borden {
+                text-align: center;
+                display: inline-block;
+                padding: 2em;
+            }
+            .bord_parkeren {
+                font-size: 8em;
+                background: #00d;
+                border-radius: 0.1em;
+                padding: 0.02em;
+                display: inline-block;
+            }
+            .bord_parkeren span {
+                background: #00d;
+                color: #fff;
+                padding: 0.1em;
+                border: 2px solid #fff;
+                border-radius: 0.1em;
+                display: inline-block;
+                font-weight: 900;
+            }
+            .bord_max_10_min {
+                font-size: 1.4em;
+                font-weight: 900;
+                border: 2px solid black;
+                display: inline-block;
+                padding: 0.2em;
+                border-radius: 0.2em;
+                margin: 0.2em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="halteerplaats">H23</div>
+            <div class="adresinfo">
+                <h1>Van&nbsp;Goghmuseum</h1>
+                <h2><a href="https://www.google.nl/maps/place/Van+Gogh+Museum/@52.358067,4.8788775,19z">Paulus Potterstraat 13, Amsterdam</a></h2>
+            </div>
+            <div class="replace_with_clearfix"></div>
+        </header>
+        <main>
+            <section class="slides">
+                <section class="slide_left">&#x276c;</section>
+                <section class="slide_right">&#x276d;</section>
+            </section>
+            <section class="borden">
+                <div class="bord_parkeren"><span>P</span></div><br>
+                <div class="bord_max_10_min">max. 10 min</div>
+            </section>
+            <section class="attracties">
+                <ul>
+                    <li>
+                        <section class="attractie">
+                            <img src="">
+                            <h2>Van Gogh Museum (20 m. / 1 min. walk)</h2>
+                            <p>Very nice collection</p>
+                            <p><a href="attractie.html">link</a></p>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="attractie">
+                            <img src="">
+                            <h2>Rijks Museum (400 m. / 10 min. walk)</h2>
+                            <p>Most famous of all Dutch museums</p>
+                            <p><a href="attractie.html">link</a></p>
+                        </section>
+                    </li>
+                    <li>
+                        <section class="attractie">
+                            <img src="">
+                            <h2>Coster Diamonds</h2>
+                            <p>Diamonds are a girls best friend</p>
+                            <p><a href="attractie.html">link</a></p>
+                        </section>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
